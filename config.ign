@@ -1,0 +1,15 @@
+{
+  "ignition": {
+    "version": "3.2.0"
+  },
+  "passwd": {
+    "users": [
+      {
+        "name": "core",
+        "sshAuthorizedKeys": [
+          "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDse0vz+qqN4rqdZYgSDlUbnN+y4ueg0uoIaux7GmGqkk4AuI8QVWuifSo+kkCLLsEYjBtHaGA4eAUJqbRTNTq71l8cARd5EhbVgCy9BLmerIqyajTqbOX+7pD361BkalX02MwZWXll553FfUnEWUxTfEQfjJe16ntQHv0YfZVXaJBb9K1zzrLkzOUwz1+pbvmbNHOf9KMzyPFr/KSRRNGL3n2fneNUPWYsmQDLi86DZlloIazHcl9ULVL4sEVuBfGmM3Rkp6WVJ3lqQPqv5EwaI8FiL3gFJa9i1ws/u4guGVKlyQNcropvHJDIO752QMwFKSuJ1I5zPGfDbTYDyihjrzf6zwN/uoBYj004yV2G+UqWwpFDaKLoHEOLVw4uB/FPf6+JF+/I4wh0QoYzDcAr5vVTUNLQvUH82HJfXrdc6wGKY2WWBHhM3df509B9yUtD6TSktm4mpjMhFam8D14Hv87GivJiDoJ5nJQmk3XScXHy6e4tkTUsV27ebIkLp8N0fAGZVaXz/ZQ+9srUQstrmR9BRtgYq+0frTRmUn4A6NhA/otUi24ZsXkQ0+ymtLTdSyXex1H3wuQt4Fp+7pXipuE/HNW8a/eeCP5C11daze7w7xWkE4+b5rRHKO0swa/plbIhqtAyTeyWDVZV/uhAarm/vHUb7QR1193btevhhw== root@ows.cloudb.dataserve.com.sa"
+        ]
+      }
+    ]
+  }
+}
