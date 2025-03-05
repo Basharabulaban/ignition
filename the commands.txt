@@ -1,14 +1,6 @@
-git clone https://github.com/basharabulaban/ignition.git
-
-ssh-keygen
-
-cat 228-publickey.txt >> ~/.ssh/authorized_keys
-chmod 700 ~/.ssh
-chmod 600 ~/.ssh/authorized_keys
 
 
-
-sat sat-attachHost-satellite-location-bal.ign sat.ign
+cp sat-attachHost-satellite-location-bal.ign sat.ign
 
 ssh_key=$(cat ~/.ssh/id_rsa.pub)
 jq --arg key "$ssh_key" '.passwd.users[0].sshAuthorizedKeys = [$key]' sat.ign > updated_sat.ign
@@ -20,3 +12,16 @@ dig master1.cloudb.dataserve.com.sa
 ipconfig /flushdns
 
 sudo coreos-installer install /dev/sda --ignition-file updated_sat.ign 
+
+
+
+git clone https://github.com/basharabulaban/ignition.git
+
+ssh-keygen
+
+cat 228-publickey.txt >> ~/.ssh/authorized_keys
+chmod 700 ~/.ssh
+chmod 600 ~/.ssh/authorized_keys
+
+
+
