@@ -17,4 +17,4 @@ jq --arg key "$ssh_key" '.passwd.users[0].sshAuthorizedKeys = [$key]' sat.ign > 
 
 
 
-sudo 
+sudo coreos-installer install /dev/sda --ignition-file updated_sat.ign 
